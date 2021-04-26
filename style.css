@@ -3,6 +3,7 @@ html {
 }
 
 body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     background-size: cover;
     height: 100%;
@@ -13,7 +14,7 @@ head
     {
     display: inline-block;
     }
-div{
+body > div{
     display: inline-block;
     height: 70%;
     width: 25%;
@@ -23,6 +24,7 @@ div{
     }
 form
     {
+        
         float: right;
         margin: 5% 20% 10% 0;
         display: inline-block;
@@ -30,11 +32,46 @@ form
         height: 80%;
         width: 35%;
     }
+form > div 
+{
+    
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 10%;
+}
 p {
-    float: right;
+    display: inline-block;
     margin: 0;
 }
 label 
     {
+        color: gray;
+        display: inline-block;
+        margin-top: 8%;
         text-transform: uppercase;
     }   
+input 
+    {
+     display: inline-block;
+    border: 0;
+    border-bottom: 1px solid gray;
+     padding-right: 40%;
+   }
+button 
+        {
+            
+            display: inline-block;
+            background-color: blue;
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+            border-radius: 20PX;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+            margin-top: 5%;
+        }
+a 
+        {
+            text-decoration: none;
+        }
