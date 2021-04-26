@@ -21,8 +21,25 @@ body > div{
     background-image: url(./kalnai.jpg);
     background-size: cover;
     Margin: 7% 0 10% 20%;
+    
     }
-form
+h1 
+    {
+        color: white;
+        margin-left: 20%;
+        margin-top: 10%;
+        text-transform: capitalize;
+    }
+body > div > a 
+    {
+        display: inline-block;
+       width: 100%;
+        color: white;
+        text-align: center;
+        margin-top: 80%;
+    }
+
+    form
     {
         
         float: right;
@@ -71,7 +88,7 @@ button
             margin-right: 20px;
             margin-top: 5%;
         }
-a 
+form > div > a 
         {
             text-decoration: none;
         }
