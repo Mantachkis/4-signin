@@ -2,11 +2,33 @@ html {
     height: 100%;
 }
 
-
-
 body { 
-
+    display: inline-block;
     background-size: cover;
     height: 100%;
+    width:100%;
      background-image: linear-gradient(to bottom right, darkblue, teal);
 }
+head 
+    {
+    display: inline-block;
+    }
+div{
+    display: inline-block;
+    height: 70%;
+    width: 20%;
+    background-image: url(./kalnai.jpg);
+    background-size: cover;
+    Margin: 5% 0 10% 20%;
+    }
+form
+    {
+        display: inline-block;
+        background-color: white;
+        height: 80%;
+        width: 30%;
+    }
+label 
+    {
+        text-transform: uppercase;
+    }   
